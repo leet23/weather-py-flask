@@ -1,12 +1,13 @@
 [[source]]
-name = "pypi"
-url = "https://pypi.org/simple"
+url = "https://pypi.python.org/simple"
 verify_ssl = true
-
-[dev-packages]
+name = "pypi"
 
 [packages]
+flask = "*"
+flask-sqlalchemy = "*"
+requests = "*"
+python-dotenv = "*"
 gunicorn = "*"
 
-[requires]
-python_version = "3.7"
+[dev-packages]
